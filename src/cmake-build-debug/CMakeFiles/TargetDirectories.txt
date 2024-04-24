@@ -1,0 +1,9 @@
+/home/karim/tp-project/project/src/cmake-build-debug/CMakeFiles/Wallet.dir
+/home/karim/tp-project/project/src/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/karim/tp-project/project/src/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/karim/tp-project/project/src/cmake-build-debug/CMakeFiles/list_install_components.dir
+/home/karim/tp-project/project/src/cmake-build-debug/CMakeFiles/install.dir
+/home/karim/tp-project/project/src/cmake-build-debug/CMakeFiles/install/local.dir
+/home/karim/tp-project/project/src/cmake-build-debug/CMakeFiles/install/strip.dir
+/home/karim/tp-project/project/src/cmake-build-debug/CMakeFiles/Wallet_autogen_timestamp_deps.dir
+/home/karim/tp-project/project/src/cmake-build-debug/CMakeFiles/Wallet_autogen.dir

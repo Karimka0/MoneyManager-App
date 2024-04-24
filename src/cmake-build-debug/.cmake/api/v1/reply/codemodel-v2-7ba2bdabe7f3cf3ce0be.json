@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-6b0c0be96dde4ad6a1b0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Wallet",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Wallet::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Wallet-Debug-1a64ae8f236140fff37d.json",
+					"name" : "Wallet",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Wallet_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Wallet_autogen-Debug-4dac23e2b39fa5a44cec.json",
+					"name" : "Wallet_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Wallet_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Wallet_autogen_timestamp_deps-Debug-6f75f99c2bb4e9f5124e.json",
+					"name" : "Wallet_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/karim/tp-project/project/src/cmake-build-debug",
+		"source" : "/home/karim/tp-project/project/src"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
