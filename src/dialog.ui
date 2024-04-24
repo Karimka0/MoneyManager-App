@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>364</width>
+    <height>569</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>520</y>
+     <width>101</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Add</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="TypeChoose">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>50</y>
+     <width>361</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>Expense</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Income</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Transfer</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QComboBox" name="AccountFromChoose">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>130</y>
+     <width>361</width>
+     <height>41</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="IncomeChoose">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>130</y>
+     <width>361</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>Gift</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Bonus</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Salary</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Reward</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Stipend</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Other</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QComboBox" name="ExpenseChoose">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>130</y>
+     <width>361</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>Clothes</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Gift</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Health</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Education</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Transport</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Groceries</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Sports</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Travel</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Communal_services</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Entertainment</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Other</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QComboBox" name="AccountToChoose">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>210</y>
+     <width>361</width>
+     <height>41</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Sum">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>250</y>
+     <width>361</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Sum:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Data">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>420</y>
+     <width>361</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Data:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Account">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>170</y>
+     <width>361</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Account</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Category">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>90</y>
+     <width>361</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Category:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Type">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>10</y>
+     <width>361</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Transaction Type:</string>
+   </property>
+  </widget>
+  <widget class="QDateEdit" name="dateEdit">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>460</y>
+     <width>361</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="dateTime">
+    <datetime>
+     <hour>0</hour>
+     <minute>0</minute>
+     <second>0</second>
+     <year>2024</year>
+     <month>1</month>
+     <day>1</day>
+    </datetime>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Currency">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>340</y>
+     <width>361</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Currency:</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="CurrencyChoose">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>380</y>
+     <width>361</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>RUB</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>KZT</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>USD</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>EUR</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLineEdit" name="SumData">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>290</y>
+     <width>361</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="inputMethodHints">
+    <set>Qt::ImhDigitsOnly</set>
+   </property>
+   <property name="inputMask">
+    <string comment="[0-9]"/>
+   </property>
+   <property name="dragEnabled">
+    <bool>false</bool>
+   </property>
+   <property name="clearButtonEnabled">
+    <bool>true</bool>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
